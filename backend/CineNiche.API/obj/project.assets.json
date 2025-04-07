@@ -447,19 +447,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/andieclegg/.nuget/packages/": {}
+    "/Users/lizzysimmons/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/andieclegg/Desktop/CineNich Intex2/backend/CineNiche.API/CineNiche.API.csproj",
+      "projectUniqueName": "/Users/lizzysimmons/Intex2/backend/CineNiche.API/CineNiche.API.csproj",
       "projectName": "CineNiche.API",
-      "projectPath": "/Users/andieclegg/Desktop/CineNich Intex2/backend/CineNiche.API/CineNiche.API.csproj",
-      "packagesPath": "/Users/andieclegg/.nuget/packages/",
-      "outputPath": "/Users/andieclegg/Desktop/CineNich Intex2/backend/CineNiche.API/obj/",
+      "projectPath": "/Users/lizzysimmons/Intex2/backend/CineNiche.API/CineNiche.API.csproj",
+      "packagesPath": "/Users/lizzysimmons/.nuget/packages/",
+      "outputPath": "/Users/lizzysimmons/Intex2/backend/CineNiche.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/andieclegg/.nuget/NuGet/NuGet.Config"
+        "/Users/lizzysimmons/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -481,9 +481,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -513,7 +512,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/andieclegg/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
