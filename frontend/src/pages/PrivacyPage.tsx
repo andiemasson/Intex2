@@ -4,115 +4,168 @@ const PrivacyPage: React.FC = () => {
   return (
     <div className="privacy-page">
       <h1>Privacy Policy</h1>
+      <p>
+        <strong>Effective Date:</strong> 7 April 2025
+      </p>
+      <p>
+        <strong>Last Updated:</strong> 11 April 2025
+      </p>
 
       <section className="privacy-section">
         <h2>Introduction</h2>
         <p>
-          At CineNiche, we respect your privacy and are committed to protecting
-          your personal data. This privacy policy will inform you about how we
-          look after your personal data when you visit our website and tell you
-          about your privacy rights and how the law protects you.
+          At CineNiche, your privacy matters to us. This Privacy Policy outlines
+          how we collect, use, and protect your personal data in accordance with
+          the General Data Protection Regulation (GDPR).
         </p>
       </section>
 
       <section className="privacy-section">
-        <h2>The Data We Collect</h2>
-        <p>
-          We may collect, use, store and transfer different kinds of personal
-          data about you which we have grouped together as follows:
-        </p>
+        <h2>What Personal Data We Collect</h2>
         <ul>
           <li>
-            <strong>Identity Data</strong> includes first name, last name,
-            username or similar identifier.
+            <strong>Account & Contact Information</strong>: Name, Email address,
+            Payment details (processed securely through third-party providers)
           </li>
           <li>
-            <strong>Contact Data</strong> includes email address.
+            <strong>Usage Data</strong>: Shows/movies watched, Preferences and
+            watchlists, Ratings and reviews, IP address, browser type, device
+            info, and access times
           </li>
           <li>
-            <strong>Technical Data</strong> includes internet protocol (IP)
-            address, browser type and version, time zone setting and location,
-            browser plug-in types and versions, operating system and platform,
-            and other technology on the devices you use to access this website.
+            <strong>Cookies & Tracking</strong>: We use cookies and similar
+            technologies to improve functionality and personalize your
+            experience. You may opt out or manage your preferences via our
+            [Cookie Settings page].
+          </li>
+        </ul>
+      </section>
+
+      <section className="privacy-section">
+        <h2>Legal Bases for Processing</h2>
+        <ul>
+          <li>
+            Contractual necessity – To provide and manage your account and
+            access to our streaming services
           </li>
           <li>
-            <strong>Usage Data</strong> includes information about how you use
-            our website, products and services.
+            Consent – For sending newsletters or personalizing recommendations
+            (you can withdraw consent at any time)
           </li>
+          <li>Legal obligation – To comply with applicable laws</li>
           <li>
-            <strong>Profile Data</strong> includes your username and password,
-            your interests, preferences, feedback and survey responses.
+            Legitimate interest – For analytics, security, and fraud prevention,
+            provided your rights are not overridden
           </li>
         </ul>
       </section>
 
       <section className="privacy-section">
         <h2>How We Use Your Data</h2>
+        <ul>
+          <li>Provide access to streaming content</li>
+          <li>Create personalized content and recommendations</li>
+          <li>Improve site performance and user experience</li>
+          <li>
+            Communicate with you (account-related and marketing, if you opt in)
+          </li>
+          <li>Detect and prevent fraud or unauthorized access</li>
+          <li>Fulfill our legal obligations</li>
+        </ul>
+      </section>
+
+      <section className="privacy-section">
+        <h2>Sharing Your Data</h2>
+        <ul>
+          <li>
+            Service Providers (e.g., payment processors, hosting services)
+          </li>
+          <li>Legal Authorities when legally required</li>
+          <li>
+            Analytics & Performance Tools (e.g., Google Analytics, with IP
+            anonymization)
+          </li>
+        </ul>
+        <p>We never sell your personal data.</p>
+      </section>
+
+      <section className="privacy-section">
+        <h2>International Data Transfers</h2>
         <p>
-          We will only use your personal data when the law allows us to. Most
-          commonly, we will use your personal data in the following
-          circumstances:
+          If your data is transferred outside the European Economic Area (EEA),
+          we ensure appropriate safeguards such as:
         </p>
         <ul>
-          <li>To register you as a new customer.</li>
-          <li>To process and deliver your orders.</li>
-          <li>To manage our relationship with you.</li>
+          <li>Standard Contractual Clauses (SCCs)</li>
           <li>
-            To improve our website, products/services, marketing or customer
-            relationships.
-          </li>
-          <li>
-            To recommend products or services that may be of interest to you.
+            Transfers to countries with adequate protection levels (recognized
+            by the European Commission)
           </li>
         </ul>
       </section>
 
       <section className="privacy-section">
-        <h2>Data Security</h2>
+        <h2>Data Retention</h2>
         <p>
-          We have put in place appropriate security measures to prevent your
-          personal data from being accidentally lost, used or accessed in an
-          unauthorized way, altered or disclosed. We limit access to your
-          personal data to those employees, agents, contractors and other third
-          parties who have a business need to know.
+          We retain your personal data only as long as necessary to fulfill the
+          purposes described above, including:
+        </p>
+        <ul>
+          <li>While your account is active</li>
+          <li>To meet legal, accounting, or reporting obligations</li>
+        </ul>
+        <p>
+          You can request deletion of your data at any time (see next section).
         </p>
       </section>
 
       <section className="privacy-section">
-        <h2>Your Legal Rights</h2>
-        <p>
-          Under certain circumstances, you have rights under data protection
-          laws in relation to your personal data, including the right to:
-        </p>
+        <h2>Your GDPR Rights</h2>
         <ul>
-          <li>Request access to your personal data.</li>
-          <li>Request correction of your personal data.</li>
-          <li>Request erasure of your personal data.</li>
-          <li>Object to processing of your personal data.</li>
-          <li>Request restriction of processing your personal data.</li>
-          <li>Request transfer of your personal data.</li>
-          <li>Right to withdraw consent.</li>
+          <li>Access your personal data</li>
+          <li>Correct inaccurate or incomplete data</li>
+          <li>Erase your data ("right to be forgotten")</li>
+          <li>Restrict or object to processing</li>
+          <li>Data portability (receive your data in a usable format)</li>
+          <li>Withdraw consent at any time</li>
         </ul>
+        <p>
+          To exercise these rights, contact us at:{' '}
+          <a href="mailto:privacy@cineniche.com">privacy@cineniche.com</a>
+        </p>
+        <p>
+          You also have the right to lodge a complaint with your local data
+          protection authority.
+        </p>
+      </section>
+
+      <section className="privacy-section">
+        <h2>Children's Privacy</h2>
+        <p>
+          Our service is not directed to children under 16. We do not knowingly
+          collect personal data from minors without parental consent.
+        </p>
+      </section>
+
+      <section className="privacy-section">
+        <h2>Changes to This Policy</h2>
+        <p>
+          We may update this policy periodically. If we make material changes,
+          we will notify you via email or through our platform.
+        </p>
       </section>
 
       <section className="privacy-section">
         <h2>Contact Us</h2>
+        <p>Data Controller: CineNiche</p>
         <p>
-          If you have any questions about this privacy policy or our privacy
-          practices, please contact us at:
+          Email:{' '}
+          <a href="mailto:privacy@cineniche.com">privacy@cineniche.com</a>
         </p>
-        <p>Email: privacy@cineniche.com</p>
-        <p>Postal address: 123 Movie Lane, Cinema City, CA 90210</p>
-      </section>
-
-      <section className="privacy-section">
-        <h2>Changes to the Privacy Policy</h2>
+        <p>Address: 155 E 1230 N Provo, UT 84602</p>
         <p>
-          We may update our privacy policy from time to time. We will notify you
-          of any changes by posting the new privacy policy on this page and
-          updating the "Last Updated" date below.
+          Data Protection Officer (if applicable): John McConkie | 801-854-8750
         </p>
-        <p>This privacy policy was last updated on June 10, 2023.</p>
       </section>
     </div>
   );
